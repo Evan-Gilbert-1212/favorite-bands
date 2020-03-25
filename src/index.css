@@ -9,4 +9,74 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  margin-top: 4rem;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: hsla(0, 0%, 100%, 1);
+}
+
+.line {
+  background-color: black;
+  height: 2px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  margin-left: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.summary-section {
+  margin-left: 12rem;
+  margin-right: 12rem;
+  margin-bottom: 2rem;
+  height: 150px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+}
+
+.summary-article {
+  padding-left: 1rem;
+}
+
+.summary-photo {
+  width: 230px;
+  height: 150px;
+}
+
+.highlight-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: black;
+  border-style: solid;
+  width: 660px;
+  height: 450px;
+}
+
+.band-album-summary {
+  width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.song {
+  margin: 0.2rem;
 }
